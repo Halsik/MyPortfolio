@@ -21,7 +21,7 @@
                 <a class="navigation">HOME</a>
                 <a href="#one" class="navigation">ABOUT ME</a>
                 <a href="#two" class="navigation">PROJECTS</a>
-                <li class="navigation">CONTACT</li>
+                <a href="#three"class="navigation">CONTACT</a>
             </ul>
         </nav>
         <div class="container">
@@ -33,17 +33,17 @@
                 </div>
                 <div class="links">
                     <div class="icons">
-                        <a class="ic"><i class="bi bi-github"></i></a>
-                        <a class="ic"><i class="bi bi-linkedin"></i></a>
-                        <a class="ic"><i class="bi bi-youtube"></i></a>
-                        <a class="ic"><i class="bi bi-file-person-fill"></i></a>
+                        <a class="ic" href="http://www.github.com/Halsik" target="blank"><i class="bi bi-github"></i></a>
+                        <a class="ic" href="https://www.linkedin.com/in/micha%C5%82-hals-a35125233/" target="blank"><i class="bi bi-linkedin"></i></a>
+                        <a class="ic" href="https://www.youtube.com/user/KostkaMen" target="blank"><i class="bi bi-youtube"></i></a>
+                        <a class="ic" href="https://halsik.github.io/CV/" target="blank"><i class="bi bi-file-richtext-fill"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div  class="back">
-        <a class="up" href="#home" class="backarrow">UP</a>
+        <a class="up" href="#home" class="backarrow"><i class="bi bi-arrow-up-square-fill"></i></a>
     </div>
     </div>
     <div  class="secondPage">
@@ -116,12 +116,12 @@
         </div>
         <div class="projects">
             <div class="btnCont">
-                <button class="chooseButton" id="choosePig" onclick="pig()">PigGame</button>
-                <button class="chooseButton" id="chooseRps" onclick="rps()">RPS</button>
-                <button class="chooseButton" id="chooseGuess" onclick="guess()">Guessing Game</button>
-                <button class="chooseButton" id="chooseMemory" onclick="memory()">Memory Game</button>
-                <button class="chooseButton" id="chooseDrum" onclick="drum()">Drum Kit</button>
-                <button class="chooseButton" id="chooseCalc" onclick="calc()">Calculator</button>
+                <button class="chooseButton pressedButton" id="choosePig" onclick="pig()"><a>Pig Game</a></button>
+                <button class="chooseButton" id="chooseRps" onclick="rps()"><a>RPS</a></button>
+                <button class="chooseButton" id="chooseGuess" onclick="guess()"><a>Guessing Game</a></button>
+                <button class="chooseButton" id="chooseMemory" onclick="memory()"><a>Memory Game</a></button>
+                <button class="chooseButton" id="chooseDrum" onclick="drum()"><a>Drum Kit</a></button>
+                <button class="chooseButton" id="chooseCalc" onclick="calc()"><a>Calculator</a></button>
             </div>
             <div class="projectPic">
                 <div class="firstPhoto">
@@ -130,13 +130,32 @@
                     </div>
                 </div>
                 <div class="btns">
-                    <button class="linkBtn">Play Game!</button>
-                    <button class="linkBtn">Check Repo!</button>
+                    <button class="linkBtn"><a id="gameLinks" href="https://halsik.github.io/Pig-Game/" target="blank">Play Game!</a></button>
+                    <button class="linkBtn"><a id="repoLinks" href="https://github.com/Halsik/Pig-Game" target="blank">Check Repo!</a></button>
                 </div>
                 <div class="secondPhoto">
                     <div class="gamePhoto2">
                         
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="three" class="fourthPage">
+        <div class="background2">
+            <div class="header">
+                <h1  class="portfolio"><span>Co</span>ntact</h1>
+            </div>
+            <div class="contactInfo">
+                <div class="contactCont">
+                    <div class="firstInfo">
+                    <p class="contactDetails"><i class="bi bi-geo-alt-fill"></i> Pomorskie, Kwidzyn</p>
+                    <p class="contactDetails"><i class="bi bi-envelope-fill"></i> michal.jan.hals@gmail.com</p>
+                </div>
+                <div class="secondInfo">
+                    <p class="contactDetails"><i class="bi bi-telephone-fill"></i> 518920112</p>
+                    <p class="contactDetails"><i class="bi bi-link-45deg"></i> github.com/Halsik</p>
+                </div>
                 </div>
             </div>
         </div>

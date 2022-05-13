@@ -1,6 +1,11 @@
+
+
+// Animated Title
 const dynamicText = document.querySelector(".dynamic")
 const words = ["Michał Hals", "Developer", "Freelancer",]
 let count = 1;
+
+// Game Buttons
 const pigBtn = document.querySelector("#choosePig")
 const rpsBtn = document.querySelector("#chooseRps")
 const memoryBtn = document.querySelector("#chooseMemory")
@@ -8,11 +13,16 @@ const guessBtn = document.querySelector("#chooseGuess")
 const drumBtn = document.querySelector("#chooseDrum")
 const calcBtn = document.querySelector("#chooseCalc")
 
+//Links Button
+const linkBtn = document.querySelector("#gameLinks")
+const repoBtn = document.querySelector("#repoLinks")
+
+// Game pictures
 const firstPhoto = document.querySelector(".gamePhoto1")
 const secondPhoto = document.querySelector(".gamePhoto2")
 
 
-
+// Change words function
 setInterval(newText,2000)
 
 function newText() { 
@@ -26,6 +36,8 @@ function newText() {
 
 }
 
+
+// Remove all class
 function press() {
     pigBtn.classList.remove("pressedButton")
     rpsBtn.classList.remove("pressedButton") 
@@ -48,10 +60,14 @@ function press() {
 }
 
 
-
+// Choose Game buttons and swap links
 function pig() {
     press()
     pigBtn.classList.add("pressedButton") 
+    linkBtn.getAttribute("href")
+    linkBtn.setAttribute("href", "https://halsik.github.io/Pig-Game/")
+    repoBtn.getAttribute("href")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/Pig-Game")
 }
 
 function rps() {
@@ -59,6 +75,10 @@ function rps() {
     rpsBtn.classList.add("pressedButton") 
     firstPhoto.classList.add("rpsOne")
     secondPhoto.classList.add("rpsTwo")
+    linkBtn.getAttribute("href")
+    linkBtn.setAttribute("href", "https://halsik.github.io/RockPaperScissorsGame/")
+    repoBtn.getAttribute("href")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/RockPaperScissorsGame")
 }
 
 function memory() {
@@ -66,6 +86,10 @@ function memory() {
     memoryBtn.classList.add("pressedButton") 
     firstPhoto.classList.add("memoryOne")
     secondPhoto.classList.add("memoryTwo")
+    linkBtn.getAttribute("href")
+    linkBtn.setAttribute("href", "https://halsik.github.io/MemoryGameMain/")
+    repoBtn.getAttribute("href")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/MemoryGameMain")
 }
 
 function guess() {
@@ -73,6 +97,10 @@ function guess() {
     guessBtn.classList.add("pressedButton") 
     firstPhoto.classList.add("guessOne")
     secondPhoto.classList.add("guessTwo")
+    linkBtn.getAttribute("href")
+    linkBtn.setAttribute("href", "https://halsik.github.io/Guessing-game/")
+    repoBtn.getAttribute("href")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/Guessing-game")
 }
 
 function calc() {
@@ -80,6 +108,10 @@ function calc() {
     calcBtn.classList.add("pressedButton") 
     firstPhoto.classList.add("calcOne")
     secondPhoto.classList.add("calcTwo")
+    linkBtn.getAttribute("href")
+    linkBtn.setAttribute("href", "https://halsik.github.io/Calculator-main/")
+    repoBtn.getAttribute("href")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/Calculator-main")
 }
 
 function drum() {
@@ -87,6 +119,10 @@ function drum() {
     drumBtn.classList.add("pressedButton") 
     firstPhoto.classList.add("drumOne")
     secondPhoto.classList.add("drumTwo")
+    linkBtn.getAttribute("href")
+    linkBtn.setAttribute("href", "https://halsik.github.io/Drum/")
+    repoBtn.getAttribute("href")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/Drum")
 }
 
 

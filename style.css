@@ -14,15 +14,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-image: url(background.jpeg);
+    background-image: url(/img/background.jpeg);
     height: 100vh;
     
 }
 
 .background {
     
-    background-color: rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.699);
     height: 100vh;
+}
+
+.background2 {
+    background-color: rgba(0, 0, 0, 0.815);
+    height: 50vh;
 }
 
 nav {
@@ -146,7 +151,7 @@ ul {
       transition: 0.5s;
   }
 
-  i:hover {
+  .ic:hover > i {
       color: rgb(211, 64, 64);
   }
 
@@ -155,7 +160,7 @@ ul {
       background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-image: url(noname.png);
+    background-image: url(/img/noname.png);
   }
 
   .header {
@@ -193,7 +198,7 @@ ul {
       box-shadow: black 0px 0px 15px 3px;
       background-size: cover;
       object-fit: cover;
-      background-image: url(Photo.jpg);
+      background-image: url(/img/Photo.jpg);
       width: 400px;
       padding-right: 60px;
       height: 500px;
@@ -322,26 +327,31 @@ ul {
 }
 
 .back {
-    padding-top: 12px;
     height: 80px;
     width: 80px;
-    background-color: rgba(94, 92, 92, 0.747);
     bottom: 20px;
     left: 20px;
     position: fixed;
     border-radius: 50%;
 }
 
-.up {
-    color: rgb(212, 212, 212);
-    margin-left: 13px;
-    font-size: 40px;
-    text-decoration: none;
-    transition: 0.5s;
+.bi-arrow-up-square-fill {
+    color: rgba(85, 85, 85, 0.5);
+    font-size: 60px;
+    margin-left: 10px;
+    
+}
+.bi-arrow-up-square-fill:hover {
+    color: rgb(180, 49, 49);
 }
 
-.up:hover {
-    color: rgb(180, 49, 49);
+
+.up {
+    color: rgb(212, 212, 212);
+    text-decoration: none;
+    transition: 0.5s;
+    margin-bottom: 20px;   
+
 }
 
 .portfolio {
@@ -382,6 +392,8 @@ ul {
 }
 
 .pressedButton {
+    transform: scale(1.2);
+    box-shadow: rgb(211, 64, 64) 0px 0px 10px 1px;
     background-color: rgb(211, 64, 64);;
     color: white;
 }
@@ -432,13 +444,14 @@ ul {
     cursor: pointer;
     background-color: rgb(211, 64, 64);;
     color: white;
+    box-shadow: rgb(211, 64, 64) 0px 0px 3px 1px;
 }
 
 .gamePhoto1 {
     box-shadow: rgb(197, 37, 37) 0px 0px 20px 2px;
     width: 500px;
     height: 350px;
-    background-image: url(pigGame1.png);
+    background-image: url(/img/pigGame1.png);
     background-size: cover;
     object-fit: contain;
     background-position-x: -68px ;
@@ -448,49 +461,49 @@ ul {
     box-shadow: rgb(197, 37, 37) 0px 0px 20px 2px;
     width: 500px;
     height: 350px;
-    background-image: url(pigGame2.png);
+    background-image: url(/img/pigGame2.png);
     background-size: cover;
     object-fit: contain;
     background-position-x: -68px ;
 }
 
 .pigOne {
-    background-image: url(pigGame1.png);
+    background-image: url(/img/pigGame1.png);
 }
 
 .pigTwo {
-    background-image: url(pigGame2.png);
+    background-image: url(/img/pigGame2.png);
 }
 
 
 .rpsOne {
-    background-image: url(rps1.png);
+    background-image: url(/img/rps1.png);
 }
 
 .rpsTwo {
-    background-image: url(rps2.png);
+    background-image: url(/img/rps2.png);
 }
 
 
 
 .guessOne {
-    background-image: url(guess1.png);
+    background-image: url(/img/guess1.png);
 }
 
 .guessTwo {
-    background-image: url(guess2.png);
+    background-image: url(/img/guess2.png);
 }
 
 
 
 .memoryOne {
-    background-image: url(memory1.png);
+    background-image: url(/img/memory1.png);
     background-repeat: no-repeat;
     background-position-x: 0;
 }
 
 .memoryTwo {
-    background-image: url(memory2.png);
+    background-image: url(/img/memory2.png);
     background-repeat: no-repeat;
     background-position-x: 0;
 }
@@ -502,7 +515,7 @@ ul {
     background-position-x: -50px;
     background-position-y: 15px;
     background-repeat: no-repeat;
-    background-image: url(drum1.png);
+    background-image: url(/img/drum1.png);
 }
 
 .drumTwo {
@@ -510,21 +523,105 @@ ul {
     background-position-x: -50px;
     background-position-y: 15px;
     background-repeat: no-repeat;
-    background-image: url(drum2.png);
+    background-image: url(/img/drum2.png);
 }
 
 
 
 .calcOne {
-    background-image: url(calc1.png);
+    background-image: url(/img/calc1.png);
     background-repeat: no-repeat;
 }
 
 .calcTwo {
-    background-image: url(calc2.png);
+    background-image: url(/img/calc2.png);
     background-repeat: no-repeat;
     background-position-x: 0px;
 }
 
+.fourthPage {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+    background-image: url(/img/background4.jpg);
+}
+
+.contactInfo {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.contactCont {
+    margin-left: 150px;
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    width: 900px;
+}
+
+.firstInfo {
+    padding-top: 30px;
+    width: 50%;
+    height: 100px;
+}
+
+.secondInfo {
+    padding-left: 20px;
+    padding-top: 30px;
+    width: 50%;
+    height: 100px;
+}
+
+.contactDetails {
+    margin-bottom: 30px;
+    gap: 20px;
+    color: white;
+    font-size: 29px;
+    
+}
+
+.bi-geo-alt-fill {
+    color: rgb(197, 37, 37);
+    margin-right: 10px;
+}
+
+.bi-envelope-fill {
+    color: rgb(197, 37, 37);
+    margin-right: 10px;
+}
+
+.bi-telephone-fill {
+    color: rgb(197, 37, 37);
+    margin-right: 10px;
+}
+
+.bi-link-45deg {
+    color: rgb(197, 37, 37);
+    margin-right: 10px;
+}
+
+#gameLinks {
+    text-decoration: none;
+    color: rgb(211, 64, 64);
+    transition: 0.5s;
+}
+
+#repoLinks {
+    text-decoration: none;
+    color: rgb(211, 64, 64);
+    transition: 0.5s;
+}
+
+.linkBtn:hover > #gameLinks {
+    color: white
+}
+
+.linkBtn:hover > #repoLinks {
+    color: white
+}
 
 
