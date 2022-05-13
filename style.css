@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-image: url(img/background.jpeg);
+    background-image: url(background.jpeg);
     height: 100vh;
     
 }
@@ -160,7 +160,7 @@ ul {
       background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-image: url(img/noname.png);
+    background-image: url(noname.png);
   }
 
   .header {
@@ -198,7 +198,7 @@ ul {
       box-shadow: black 0px 0px 15px 3px;
       background-size: cover;
       object-fit: cover;
-      background-image: url(img/Photo.jpg);
+      background-image: url(Photo.jpg);
       width: 400px;
       padding-right: 60px;
       height: 500px;
@@ -451,7 +451,7 @@ ul {
     box-shadow: rgb(197, 37, 37) 0px 0px 20px 2px;
     width: 500px;
     height: 350px;
-    background-image: url(img/pigGame1.png);
+    background-image: url(pigGame1.png);
     background-size: cover;
     object-fit: contain;
     background-position-x: -68px ;
@@ -461,49 +461,49 @@ ul {
     box-shadow: rgb(197, 37, 37) 0px 0px 20px 2px;
     width: 500px;
     height: 350px;
-    background-image: url(img/pigGame2.png);
+    background-image: url(pigGame2.png);
     background-size: cover;
     object-fit: contain;
     background-position-x: -68px ;
 }
 
 .pigOne {
-    background-image: url(img/pigGame1.png);
+    background-image: url(pigGame1.png);
 }
 
 .pigTwo {
-    background-image: url(img/pigGame2.png);
+    background-image: url(pigGame2.png);
 }
 
 
 .rpsOne {
-    background-image: url(img/rps1.png);
+    background-image: url(rps1.png);
 }
 
 .rpsTwo {
-    background-image: url(img/rps2.png);
+    background-image: url(rps2.png);
 }
 
 
 
 .guessOne {
-    background-image: url(img/guess1.png);
+    background-image: url(guess1.png);
 }
 
 .guessTwo {
-    background-image: url(img/guess2.png);
+    background-image: url(guess2.png);
 }
 
 
 
 .memoryOne {
-    background-image: url(img/memory1.png);
+    background-image: url(memory1.png);
     background-repeat: no-repeat;
     background-position-x: 0;
 }
 
 .memoryTwo {
-    background-image: url(img/memory2.png);
+    background-image: url(memory2.png);
     background-repeat: no-repeat;
     background-position-x: 0;
 }
@@ -515,7 +515,7 @@ ul {
     background-position-x: -50px;
     background-position-y: 15px;
     background-repeat: no-repeat;
-    background-image: url(img/drum1.png);
+    background-image: url(drum1.png);
 }
 
 .drumTwo {
@@ -523,18 +523,18 @@ ul {
     background-position-x: -50px;
     background-position-y: 15px;
     background-repeat: no-repeat;
-    background-image: url(img/drum2.png);
+    background-image: url(drum2.png);
 }
 
 
 
 .calcOne {
-    background-image: url(img/calc1.png);
+    background-image: url(calc1.png);
     background-repeat: no-repeat;
 }
 
 .calcTwo {
-    background-image: url(img/calc2.png);
+    background-image: url(calc2.png);
     background-repeat: no-repeat;
     background-position-x: 0px;
 }
@@ -544,7 +544,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: -200px;
-    background-image: url(img/background4.jpg);
+    background-image: url(background4.jpg);
 }
 
 .contactInfo {
