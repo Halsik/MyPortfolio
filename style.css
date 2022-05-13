@@ -318,7 +318,7 @@ ul {
 
 .thirdPage {
     height: 100vh;
-    background-color: cadetblue;
+    background-color: rgb(21, 22, 26);
 }
 
 .back {
@@ -343,4 +343,188 @@ ul {
 .up:hover {
     color: rgb(180, 49, 49);
 }
+
+.portfolio {
+    color: white;
+    padding-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.projects {
+    height: 85vh;
+}
+
+.btnCont {
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.chooseButton {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: rgb(211, 64, 64);
+    border: 3px solid rgb(211, 64, 64);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.chooseButton:hover {
+    cursor: pointer;
+    background-color: rgb(211, 64, 64);;
+    color: white;
+}
+
+.pressedButton {
+    background-color: rgb(211, 64, 64);;
+    color: white;
+}
+
+.projectPic {
+    height: 50vh;
+    display: flex;
+}
+
+.firstPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-left: 60px;
+}
+
+.secondPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin-right: 60px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+
+
+.linkBtn {
+    border-radius: 40px;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(211, 64, 64);
+    border: 3px solid rgb(211, 64, 64);
+    transition: 0.5s;
+}
+
+.linkBtn:hover {
+    cursor: pointer;
+    background-color: rgb(211, 64, 64);;
+    color: white;
+}
+
+.gamePhoto1 {
+    box-shadow: rgb(197, 37, 37) 0px 0px 20px 2px;
+    width: 500px;
+    height: 350px;
+    background-image: url(pigGame1.png);
+    background-size: cover;
+    object-fit: contain;
+    background-position-x: -68px ;
+}
+
+.gamePhoto2 {
+    box-shadow: rgb(197, 37, 37) 0px 0px 20px 2px;
+    width: 500px;
+    height: 350px;
+    background-image: url(pigGame2.png);
+    background-size: cover;
+    object-fit: contain;
+    background-position-x: -68px ;
+}
+
+.pigOne {
+    background-image: url(pigGame1.png);
+}
+
+.pigTwo {
+    background-image: url(pigGame2.png);
+}
+
+
+.rpsOne {
+    background-image: url(rps1.png);
+}
+
+.rpsTwo {
+    background-image: url(rps2.png);
+}
+
+
+
+.guessOne {
+    background-image: url(guess1.png);
+}
+
+.guessTwo {
+    background-image: url(guess2.png);
+}
+
+
+
+.memoryOne {
+    background-image: url(memory1.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+}
+
+.memoryTwo {
+    background-image: url(memory2.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+}
+
+
+
+.drumOne {
+    background-size:600px;
+    background-position-x: -50px;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+    background-image: url(drum1.png);
+}
+
+.drumTwo {
+    background-size:600px;
+    background-position-x: -50px;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+    background-image: url(drum2.png);
+}
+
+
+
+.calcOne {
+    background-image: url(calc1.png);
+    background-repeat: no-repeat;
+}
+
+.calcTwo {
+    background-image: url(calc2.png);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+
+
 
