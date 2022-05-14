@@ -230,13 +230,14 @@ ul {
 
 .progressBar {
   background: rgba(0, 0, 0, 0.575);
-  
+  border-radius: 5px;
   padding: 0 5px;
   height: 10px;
   width: 90%;
 }
 
 .progress-value-skill {
+    border-radius: 5px;
   animation: load1 3s normal forwards;
   background:rgb(211, 64, 64);
   height: 9px;
@@ -245,6 +246,7 @@ ul {
 }
 
 .progress-value-skill1 {
+    border-radius: 5px;
     animation: load2 3s normal forwards;
     background:rgb(211, 64, 64);
     height: 9px;
@@ -253,6 +255,7 @@ ul {
 }
 
 .progress-value-skill2 {
+    border-radius: 5px;
     animation: load3 3s normal forwards;
     background:rgb(211, 64, 64);
     height: 9px;
@@ -261,6 +264,7 @@ ul {
 }
 
 .progress-value-skill3 {
+    border-radius: 5px;
     animation: load4 3s normal forwards;
     background: rgb(211, 64, 64);
     height: 9px;
@@ -269,6 +273,7 @@ ul {
 }
 
 .progress-value-skill4 {
+    border-radius: 5px;
     position: relative;
     animation: load5 3s normal forwards;
     background: rgb(211, 64, 64);
