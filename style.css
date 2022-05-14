@@ -79,12 +79,14 @@ ul {
 
 .info {
     font-size: 80px;
-    padding-bottom: 100px;
 }
 
 .text {
-    left: 32%;
-    position: absolute  ;
+    left: 32% ;
+    right: 0;
+    top: 33%;
+    bottom: 0;
+    position: absolute;
     color: white;
 }
 
@@ -119,14 +121,15 @@ ul {
   }
 
   .links {
-      height: 150px;
+      height: 200px;
       display: flex;
       justify-content: center;
+      align-items: flex-end;
+      
   }
 
   .icons {
-      margin-left: 30px;
-      padding-top: 100px;
+      margin-left: 20px ;
       height: 150px;
       width: 510px;
   }
