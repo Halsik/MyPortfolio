@@ -82,8 +82,8 @@ ul {
 }
 
 .text {
-    left: 50% ;
-    right: 0;
+    left: 30% ;
+    right: 30%;
     top: 33%;
     bottom: 0;
     position: absolute;
