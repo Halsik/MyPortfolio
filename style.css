@@ -82,9 +82,9 @@ ul {
 }
 
 .text {
-    left: 30% ;
-    right: 30%;
-    top: 33%;
+    left: 32% ;
+    right: 0;
+    top: 30%;
     bottom: 0;
     position: absolute;
     color: white;
