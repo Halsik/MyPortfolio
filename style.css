@@ -496,6 +496,9 @@ ul {
 
 .guessOne {
     background-image: url(guess1.png);
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: -20px;
 }
 
 .guessTwo {

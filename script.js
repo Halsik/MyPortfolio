@@ -98,9 +98,9 @@ function guess() {
     firstPhoto.classList.add("guessOne")
     secondPhoto.classList.add("guessTwo")
     linkBtn.getAttribute("href")
-    linkBtn.setAttribute("href", "https://halsik.github.io/Guessing-game/")
+    linkBtn.setAttribute("href", "https://halsik.github.io/WeatherApp/")
     repoBtn.getAttribute("href")
-    repoBtn.setAttribute("href", "https://github.com/Halsik/Guessing-game")
+    repoBtn.setAttribute("href", "https://github.com/Halsik/WeatherApp")
 }
 
 function calc() {
